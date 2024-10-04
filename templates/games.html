@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Matching Game</h2>
+<div class="game-board">
+    <div class="card">gato</div>
+    <div class="card">cat</div>
+    <div class="card">perro</div>
+    <div class="card">dog</div>
+</div>
+<script src="{{ url_for('static', filename='js/games.js') }}"></script>
+{% endblock %}
